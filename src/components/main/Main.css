@@ -1,0 +1,113 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+
+}
+
+.firstImg img {
+    width: 100%;
+
+}
+
+.secondImg img {
+    width: 100%;
+
+}
+
+.footer img {
+    width: 100%;
+}
+
+.articleText {
+    padding: 2rem 1rem;
+    min-height: 260px;
+}
+
+
+p {
+ 
+    color: grey;
+    line-height: 1.5rem;
+}
+
+.firstImg {
+    position: relative;
+}
+
+.arrows {
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 4px;
+    right: 0px;
+    font-size: 2rem;
+}
+
+.arrows * {
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .articleText {
+        padding: 1rem 1rem;
+        min-height: 250px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+   
+    
+    .firstSection {
+        display: flex;
+        flex-flow: row;
+
+    }
+
+    .firstImg {
+        height: 60vh;
+        min-width:45vw;
+    }
+
+    .firstImg img {
+        height: 100%;
+    }
+    
+    .arrows {
+        bottom: 0px;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-flow: row;
+        
+    }
+    .secondImg{
+        height: 40vh;
+        min-width:25vw;
+    }
+    .secondImg img{
+        height: 100%;
+    }
+    .footer {
+        height: 40vh;
+        min-width:20vw;
+    }
+    .footer img{
+        height: 100%;
+    }
+    .articleText{
+        margin: 0px;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        min-height: 0px;
+    }
+   .articleText h2{
+        font-size: 20px;
+    }
+    .articleText p{
+        font-size: 15px;
+    }
+   
+}
