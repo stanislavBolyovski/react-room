@@ -1,3 +1,18 @@
+Desktop design:
+![image](https://user-images.githubusercontent.com/75975556/181170336-f3dd82cc-fc8b-4eb1-a3c4-2bf9e1ab051e.png)
+Mobile design:
+![image](https://user-images.githubusercontent.com/75975556/181170427-60cf08cb-006a-4224-9734-12e261723236.png)
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
